@@ -3,8 +3,9 @@ import { NgModule } from "@angular/core";
 
 import { AppComponent } from "./app.component";
 import { EmployeeComponent } from "./employee/employee.component";
+import { EmployeeListComponent } from "./employee/employeelist.component";
 @NgModule({
-  declarations: [AppComponent, EmployeeComponent],
+  declarations: [AppComponent, EmployeeComponent, EmployeeListComponent],
   imports: [BrowserModule],
   providers: [],
   bootstrap: [AppComponent]
